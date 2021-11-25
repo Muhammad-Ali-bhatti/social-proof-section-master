@@ -1,0 +1,94 @@
+body{
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+
+.top-right-review{
+display: flex;
+background-color:    hsl(300, 24%, 96%);
+margin-top: 20px;
+border-radius: 5px;
+width: 300px;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.top-right-rewview-space{
+margin-left: 100px;
+
+}
+
+.top-left-details{
+    margin: 0 100px 0 0;
+}
+
+.review-text{
+    text-align: center;
+}
+
+
+.card{
+    border-radius: 5px;
+    margin: 40px 20px 10px 20px;
+    background-color: hsl(300, 43%, 22%);
+    height: fit-content !important;
+    padding: auto;
+}
+
+.profile{
+    display: flex;
+   margin: 10px;
+    justify-content: space-around;
+}
+
+.bottom-row, .profile img{
+    border-radius: 50%;
+}
+
+
+.card-detail-p{
+  margin: 30px 0 20px 10px;
+ 
+}
+
+.color{
+    color: hsl(333, 80%, 67%);
+}
+
+
+.review-2nd{
+    margin-left: 20px;
+}
+
+.review-3rd{
+    margin-left: 30px;
+}
+
+
+.card-2nd{
+    margin-top: 70px;
+}
+
+.card-3rd{
+    margin-top: 100px;
+}
+
+.attribution {
+    font-size: 21px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
